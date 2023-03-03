@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/kahat-blog/static/css/main.5ba4fa27.css",
+    "main.js": "/kahat-blog/static/js/main.74f3f053.js",
+    "index.html": "/kahat-blog/index.html",
+    "main.5ba4fa27.css.map": "/kahat-blog/static/css/main.5ba4fa27.css.map",
+    "main.74f3f053.js.map": "/kahat-blog/static/js/main.74f3f053.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5ba4fa27.css",
+    "static/js/main.74f3f053.js"
+  ]
+}
