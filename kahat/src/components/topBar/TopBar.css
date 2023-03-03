@@ -1,0 +1,60 @@
+.top {
+    width: 100%;
+    height: 60px;
+    position: sticky;
+    top: 0;
+    display: flex;
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+    background-color: #fff;
+    z-index: 999;
+}
+
+.topSide {
+    flex: 3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.topCenter {
+    flex: 6;
+}
+
+.topSocial i {
+    font-size: 20px;
+    margin-right: 10px;
+    color: #444;
+}
+
+.topSocial i:hover {
+    color: black;
+}
+
+.topMenu ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+.topMenu ul li{
+    margin-right: 20px;
+    font-size: 16px;
+    font-weight: 300;
+    cursor: pointer;
+}
+
+.topSearch img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.topSearch i {
+    font-size: 18px;
+    color: #666;
+    cursor: pointer;
+    margin-left: 15px;
+}
+

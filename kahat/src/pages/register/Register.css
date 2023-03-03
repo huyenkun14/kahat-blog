@@ -1,0 +1,59 @@
+.Register {
+    height: calc(100vh - 60px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(
+        rgba(255, 255, 255, 0.4),
+        rgba(255, 255, 255, 0.2)),
+        url("https://thumbs.dreamstime.com/b/modern-architecture-7019395.jpg");
+    background-size: cover;
+}
+
+.RegisterTitle {
+    font-size: 45px;
+}
+
+.RegisterForm {
+    margin-top: 25px;
+    display: flex;
+    flex-direction: column;
+}
+
+.RegisterForm > label {
+    margin: 10px 0;
+}
+
+.RegisterForm > input {
+    padding: 10px;
+    background-color: white;
+    border: none;
+}
+
+.RegisterForm > input:focus {
+    outline: none;
+}
+
+.RegisterButton {
+    margin-top: 20px;
+    cursor: pointer;
+    background-color: lightcoral;
+    border: none;
+    color: white;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.LoginButton {
+    position: absolute;
+    top: 100px;
+    right: 20px;
+    background-color: teal;
+    border: none;
+    color: white;
+    border-radius: 10px;
+    padding: 10px;
+    cursor: pointer;
+}
